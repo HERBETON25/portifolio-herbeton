@@ -12,12 +12,12 @@ span{color: blueviolet;}
 .header-lista-1{display: flex;}
 .portifolio{margin-left: 10%;}
 .nav-01{
-    display: flex;margin-left: 70%;margin-top: 10px;
+    display: flex;margin-left: 120%;margin-top: 10px;
 }
 .home-principal{margin: 200px 0px 300px 5%;display: flex;}
 img{margin-left: 105px;}
 
-.card-projetos{display: flex;}
+.card-projetos{display: flex;margin-left: 15%;}
 .img-rede-sociais{height: 95px;}
 .link-menu{
     margin-top: 15px;
@@ -32,6 +32,7 @@ img{margin-left: 105px;}
 h5{color: antiquewhite;font-size: 26px;margin-left: 105px;}
 h2{color: aliceblue; font-size: 75px;}
 h4{color: aliceblue;font-size: 40px; margin-bottom: 50PX;}
+.img-2{margin-left: 400px;}
 .h5{color: aliceblue;font-size:  90px;}
 .texto-sobre{color: aliceblue;text-align: center;margin-top: 10px;margin-bottom: 30px;font-size: 36px;}
 .sobre-sobre{display: flex; margin: 0px 50px 0 100PX;font-size: 26px;}
