@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "ARIAL";
+    font-family: "Arial";
 }
 body{background-color: black;}
 header{ width: 100%;display: flex;
@@ -15,8 +15,8 @@ span{color: blueviolet;}
     display: flex;margin-left: 120%;margin-top: 10px;
 }
 .home-principal{margin: 200px 0px 300px 5%;display: flex;}
-img{margin-left: 105px;}
-
+.foto-beto{margin-left: 105px;}
+.card{margin-left: 5%;}
 .card-projetos{display: flex;margin-left: 15%;}
 .img-rede-sociais{height: 95px;}
 .link-menu{
@@ -29,7 +29,7 @@ img{margin-left: 105px;}
 
   
 
-h5{color: antiquewhite;font-size: 26px;margin-left: 105px;}
+h5{color: antiquewhite;font-size: 26px;margin-left: 5%;}
 h2{color: aliceblue; font-size: 75px;}
 h4{color: aliceblue;font-size: 40px; margin-bottom: 50PX;}
 .img-2{margin-left: 400px;}
@@ -40,3 +40,32 @@ h4{color: aliceblue;font-size: 40px; margin-bottom: 50PX;}
 .projetos{text-align: center;margin: 150px 0;}
 .footer{text-align: center;margin: 50px 0;}
 
+@media (max-width: 1620px) and (orientation: landscape) { 
+    .nav-01{margin-left: 70%;}
+    .img-2{margin-left: 100px;}
+    .figure-photo{margin-top: 60px;}
+    .card-projetos{display: flex;margin-left: 5%;}
+   
+}
+@media (max-width: 360px){
+    .home-principal{display: block;}
+    .Sobre-nome{width: 600px;}
+    .portifolio{margin-left: 40%;}
+    .sobre-sobre{display: block;margin: 0;}
+    .foto-beto{margin-left: 45%;}
+    .main-imag-1{margin-left: 100px;}
+    .texto-sobre{margin-left: 10%;width: 400px;}
+    .texto-sobre-completo{text-align: justify;width: 500px;margin-left: 0px;font-size: 28px;}
+    .principais-projetos{width: 600px;margin-left: 20%;}
+    .header-lista-1{display: block;}
+    .nav-01{margin-left: 20%;}
+    .img-2{margin-left: 0px;width: 700px;}
+    .figure-photo{margin-top: 60px;}
+    .card-projetos{display: block;margin-left: 15%;}
+    .img-dos-projetos{height: 300px;width: 600px;}
+    h5{width: 500px;}
+    .h5{width: 700px;}
+    .texto-footer{width: 700px;font-size: 24px;}
+    .social{width: 700px;}
+    h4{width: 700px;}
+   }
