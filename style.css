@@ -40,14 +40,8 @@ h4{color: aliceblue;font-size: 40px; margin-bottom: 50PX;}
 .projetos{text-align: center;margin: 150px 0;}
 .footer{text-align: center;margin: 50px 0;}
 
-@media (max-width: 1620px) and (orientation: landscape) { 
-    .nav-01{margin-left: 70%;}
-    .img-2{margin-left: 100px;}
-    .figure-photo{margin-top: 60px;}
-    .card-projetos{display: flex;margin-left: 5%;}
-   
-}
-@media (max-width: 360px){
+
+@media (max-width: 450px){
     .home-principal{display: block;}
     .Sobre-nome{width: 600px;}
     .portifolio{margin-left: 40%;}
@@ -68,4 +62,11 @@ h4{color: aliceblue;font-size: 40px; margin-bottom: 50PX;}
     .texto-footer{width: 700px;font-size: 24px;}
     .social{width: 700px;}
     h4{width: 700px;}
-   }
+}
+@media (max-width: 1620px) and (orientation: landscape) { 
+    .nav-01{margin-left: 70%;}
+    .img-2{margin-left: 100px;}
+    .figure-photo{margin-top: 60px;}
+    .card-projetos{display: flex;margin-left: 5%;}
+   
+}
