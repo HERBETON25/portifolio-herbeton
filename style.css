@@ -1,25 +1,66 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Arial";
 }
-body{background-color: black;}
-header{ width: 100%;display: flex;
+
+body {
+    background-color: black;
 }
-a{list-style-type: none;text-decoration:none;color: aliceblue;}
-span{color: blueviolet;}
-.header-lista-1{display: flex;}
-.portifolio{margin-left: 10%;}
-.nav-01{
-    display: flex;margin-left: 120%;margin-top: 10px;
+
+header {
+    width: 100%;
+    display: flex;
 }
-.home-principal{margin: 200px 0px 300px 5%;display: flex;}
-.foto-beto{margin-left: 105px;}
-.card{margin-left: 5%;}
-.card-projetos{display: flex;margin-left: 15%;}
-.img-rede-sociais{height: 95px;}
-.link-menu{
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+span {
+    color: blueviolet;
+}
+
+.header-lista-1 {
+    display: flex;
+}
+
+.portifolio {
+    margin-left: 10%;
+}
+
+.nav-01 {
+    display: flex;
+    margin-left: 120%;
+    margin-top: 10px;
+}
+
+.home-principal {
+    margin: 200px 0px 300px 5%;
+    display: flex;
+}
+
+.foto-beto {
+    margin-left: 105px;
+}
+
+.card {
+    margin-left: 5%;
+}
+
+.card-projetos {
+    display: flex;
+    margin-left: 15%;
+}
+
+.img-rede-sociais {
+    height: 95px;
+}
+
+.link-menu {
     margin-top: 15px;
     margin-left: 40px;
     font-size: 25px;
@@ -27,46 +68,178 @@ span{color: blueviolet;}
 }
 
 
-  
-
-h5{color: antiquewhite;font-size: 26px;margin-left: 5%;}
-h2{color: aliceblue; font-size: 75px;}
-h4{color: aliceblue;font-size: 40px; margin-bottom: 50PX;}
-.img-2{margin-left: 400px;}
-.h5{color: aliceblue;font-size:  90px;}
-.texto-sobre{color: aliceblue;text-align: center;margin-top: 10px;margin-bottom: 30px;font-size: 36px;}
-.sobre-sobre{display: flex; margin: 0px 50px 0 100PX;font-size: 26px;}
-.main-imag-1{color: antiquewhite;margin-left: 150px}
-.projetos{text-align: center;margin: 150px 0;}
-.footer{text-align: center;margin: 50px 0;}
 
 
-@media (max-width: 450px){
-    .home-principal{display: block;}
-    .Sobre-nome{width: 600px;}
-    .portifolio{margin-left: 40%;}
-    .sobre-sobre{display: block;margin: 0;}
-    .foto-beto{margin-left: 45%;}
-    .main-imag-1{margin-left: 100px;}
-    .texto-sobre{margin-left: 10%;width: 400px;}
-    .texto-sobre-completo{text-align: justify;width: 500px;margin-left: 0px;font-size: 28px;}
-    .principais-projetos{width: 600px;margin-left: 20%;}
-    .header-lista-1{display: block;}
-    .nav-01{margin-left: 20%;}
-    .img-2{margin-left: 0px;width: 700px;}
-    .figure-photo{margin-top: 60px;}
-    .card-projetos{display: block;margin-left: 15%;}
-    .img-dos-projetos{height: 300px;width: 600px;}
-    h5{width: 500px;}
-    .h5{width: 700px;}
-    .texto-footer{width: 700px;font-size: 24px;}
-    .social{width: 700px;}
-    h4{width: 700px;}
+h5 {
+    color: antiquewhite;
+    font-size: 26px;
+    margin-left: 5%;
 }
-@media (max-width: 1620px) and (orientation: landscape) { 
-    .nav-01{margin-left: 70%;}
-    .img-2{margin-left: 100px;}
-    .figure-photo{margin-top: 60px;}
-    .card-projetos{display: flex;margin-left: 5%;}
-   
+
+h2 {
+    color: aliceblue;
+    font-size: 75px;
+}
+
+h4 {
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 50PX;
+}
+
+.img-2 {
+    margin-left: 400px;
+}
+
+.h5 {
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.texto-sobre {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.sobre-sobre {
+    display: flex;
+    margin: 0px 50px 0 100PX;
+    font-size: 26px;
+}
+
+.main-imag-1 {
+    color: antiquewhite;
+    margin-left: 150px
+}
+
+.projetos {
+    text-align: center;
+    margin: 150px 0;
+}
+
+.footer {
+    text-align: center;
+    margin: 50px 0;
+}
+
+@media (max-width: 1620px) {
+    .nav-01 {
+        margin-left: 70%;
+    }
+
+    .img-2 {
+        margin-left: 100px;
+    }
+
+    .figure-photo {
+        margin-top: 60px;
+    }
+
+    .card-projetos {
+        display: flex;
+        margin-left: 5%;
+    }
+
+
+    @media (max-width: 450px) {
+        .home-principal {
+            display: block;
+        }
+
+        .Sobre-nome {
+            width: 600px;
+            font-size: 50px;
+        }
+
+        .portifolio {
+            margin-left: 20%;
+        }
+
+        .sobre-sobre {
+            display: block;
+            margin: 0;
+            
+        }
+
+        .foto-beto {
+            margin-left: 15%;
+        }
+
+        .main-imag-1 {
+            margin-left: 15%;
+        }
+
+        .texto-sobre {
+            margin-left: 1%;
+            width: 340px;
+        }
+
+        .texto-sobre-completo {
+            text-align: justify;
+            width: 400px;
+            margin-left: 0px;
+            font-size: 24px;
+        }
+
+        .principais-projetos {
+            width: 400px;
+            margin-left: 20%;
+            font-size: 50px;
+        }
+
+        .header-lista-1 {
+            display: block;
+        }
+
+        .nav-01 {
+            margin-left: 0%;
+        }
+
+        .img-2 {
+            margin-left: 0%;
+            width: 500px;
+        }
+
+        .figure-photo {
+            margin-top: 60px;
+        }
+
+        .card-projetos {
+            display: block;
+            margin-left: 15%;
+        }
+
+        .img-dos-projetos {
+            height: 300px;
+            width: 400px;
+        }
+
+        h5 {
+            width: 400px;margin-top: 15px;
+        }
+
+        .h5 {
+            width: 400px;
+            font-size: 50px;
+            margin-left: 15%;
+        }
+
+        .texto-footer {
+            width: 500px;
+            font-size: 24px;
+        }
+
+        .social {
+            width: 400px;
+            margin-left: 10%;
+        }
+
+        h4 {
+            width: 700px;
+            font-size: 20px;
+        }
+    }
 }
