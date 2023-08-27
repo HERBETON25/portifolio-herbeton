@@ -66,22 +66,15 @@ span {
     font-size: 25px;
     display: flex;
 }
-
-
-
-
-h5 {
+.title-imag {
     color: antiquewhite;
     font-size: 26px;
-    
 }
-
 h2 {
     color: aliceblue;
     font-size: 75px;
 }
-
-h4 {
+.section-area {
     color: aliceblue;
     font-size: 40px;
     margin-bottom: 50PX;
@@ -94,7 +87,7 @@ h4 {
 .h5 {
     color: aliceblue;
     font-size: 90px;
-    
+
 }
 
 .texto-sobre {
@@ -126,7 +119,7 @@ h4 {
     margin: 50px 0;
 }
 
-@media (max-width: 1620px) {
+@media (min-width: 1200px) and (max-width: 1919px) {
     .nav-01 {
         margin-left: 70%;
     }
@@ -143,121 +136,121 @@ h4 {
         display: flex;
         margin-left: 5%;
     }
+}
 
-
-    @media (max-width: 450px) {
-        body{
-            width: 100%;
-        }
-        .home-principal {
-            display: block;
-        }
-
-        .Sobre-nome {
-            width: 100%;
-            font-size: 50px;
-        }
-
-        .portifolio {
-            
-            margin-left: 25%;
-            font-size: 50px;
-        }
-        .link-menu{margin-left: 5%;}
-        .sobre-sobre {
-            display: block;
-            margin: 0;
-            
-        }
-
-        .foto-beto {
-            margin-left: 10%;
-            height: 300px;
-        }
-
-        .main-imag-1 {
-            margin-left: 0%;
-        }
-
-        .texto-sobre {
-            margin-left: 10%;
-            width: 340px;
-        }
-
-        .texto-sobre-completo {
-            text-align: justify;
-            width: 400px;
-            margin-left: 0px;
-            font-size: 24px;
-        }
-
-        .principais-projetos {
-            width: 400px;
-            margin-left: 20%;
-            font-size: 50px;
-        }
-
-        .header-lista-1 {
-            display: block;
-        }
-
-        .nav-01 {
-            margin-left: 0%;
-            width: 100%;
-        }
-
-        .img-2 {
-            margin-left: 5%;
-            width: 100%;
-            height: 200px;
-            
-        }
-
-        .figure-photo {
-            margin-top: 60px;
-        }
-
-        .card-projetos {
-            display: block;
-            margin-left: 15%;
-        }
-
-        .img-dos-projetos {
-            height: 300px;
-            width: 400px;
-        }
-
-        h5 {
-            width: 400px;margin-top: 15px;
-        }
-
-        .h5 {
-            width: 400px;
-            font-size: 50px;
-            margin-left: 10%;
-        }
-
-        .texto-footer {
-            width: 300px;
-            font-size: 100%;
-           margin-left: 30%;
-        }
-
-        .social {
-            width: 400px;
-            margin-left: 10%;
-        }
-
-        h4 {
-            width: 100%;
-            font-size: 20px;
-        }
-        .card {
-            margin-left: 0%;
-        }
-        .card-projetos {
-            
-            margin-left: 10%;
-        }
+@media (max-width: 450px) {
+    body {
+        width: 100%;
     }
+    .portifolio {
+        margin-left: 6%;
+        margin-right: 6%;
+        font-size: 50px;
+    }
+    .nav-01 {
+        margin-left: 0%;
+        width: 100%; 
+    }
+    .link-menu {
+        margin-left: 5%;
+        font-size: 16px;
+    }
+    .home-principal {
+        display: block;
+    }
+
+    .Sobre-nome {
+        width: 100%;
+        font-size: 30px;
+    }
+    .img-2 {
+        margin-left: 0%;
+        width: 70%;
+        height: 200px;
+    }
+    .sobre-sobre {
+        display: block;
+        margin: 0;
+    }
+    .foto-beto {
+        margin-left: 15%;
+      
+        height: 200px;
+    }
+
+    .main-imag-1 {
+        margin-left: 0%;
+    }
+
+    .texto-sobre {
+        margin-left:5%;
+        font-size: 24px;
+        
+    }
+
+    .texto-sobre-completo {
+        text-align: justify;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+
+    .principais-projetos {
+       
+        margin-left: 1%;
+        font-size: 24px;
+    }
+
+    .header-lista-1 {
+        display: block;
+    }
+
+    
+
+    
+
+    .figure-photo {
+        margin-top: 60px;
+    }
+    .card {
+        margin-left: 0%;
+    }
+    .card-projetos {
+        display: block;
+        margin-left: 0%;
+    }
+
+    .img-dos-projetos {
+        height: 100px;
+        width: 200px;
+    }
+
+    .title-imag{
+        font-size: 16px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .h5 {
+        width: 100%;
+      font-size: 15px;
+        margin-left: 10%;
+    }
+
+   
+
+    .social {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .section-area {
+        width: 100%;
+        font-size: 16px;
+    }
+    .footer-nome{color: aliceblue;font-size: 18px;}
+    .footer-texto{font-size: 12px;}
+    .img-rede-sociais-1{height: 40px;}
+    .img-rede-sociais-2{height: 40px;}
+    .img-rede-sociais-3{height: 40px;}
 }
