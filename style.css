@@ -242,5 +242,8 @@ h4 {
             width: 100%;
             font-size: 20px;
         }
+        .card {
+            margin-left: 0%;
+        }
     }
 }
