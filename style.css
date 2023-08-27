@@ -146,6 +146,9 @@ h4 {
 
 
     @media (max-width: 450px) {
+        body{
+            width: 100%;
+        }
         .home-principal {
             display: block;
         }
@@ -156,7 +159,9 @@ h4 {
         }
 
         .portifolio {
-            margin-left: 20%;
+            
+            margin-left: 40%;
+            font-size: 50px;
         }
 
         .sobre-sobre {
@@ -197,11 +202,14 @@ h4 {
 
         .nav-01 {
             margin-left: 0%;
+            width: 100%;
         }
 
         .img-2 {
-            margin-left: 0%;
-            width: 500px;
+            margin-left: 20%;
+            width: 100%;
+            height: 200px;
+            
         }
 
         .figure-photo {
@@ -225,12 +233,13 @@ h4 {
         .h5 {
             width: 400px;
             font-size: 50px;
-            margin-left: 15%;
+            margin-left: 10%;
         }
 
         .texto-footer {
-            width: 500px;
-            font-size: 24px;
+            width: 100%;
+            font-size: 18px;
+           margin-left: 20%;
         }
 
         .social {
@@ -245,5 +254,6 @@ h4 {
         .card {
             margin-left: 0%;
         }
+        .link-menu{margin-left: 10%;}
     }
 }
