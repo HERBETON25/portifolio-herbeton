@@ -118,6 +118,11 @@ h2 {
     text-align: center;
     margin: 50px 0;
 }
+.footer-nome{color: aliceblue;font-size: 48px;}
+    .footer-texto{font-size: 32px;}
+    .img-rede-sociais-1{height: 70px;}
+    .img-rede-sociais-2{height: 70px;}
+    .img-rede-sociais-3{height: 70px;}
 
 @media (min-width: 1200px) and (max-width: 1919px) {
     .nav-01 {
