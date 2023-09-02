@@ -34,7 +34,7 @@ span {
 
 .nav-01 {
     display: flex;
-    margin-left: 120%;
+    margin-left: 90%;
     margin-top: 10px;
 }
 
@@ -126,7 +126,7 @@ h2 {
 
 @media (min-width: 1200px) and (max-width: 1919px) {
     .nav-01 {
-        margin-left: 70%;
+        margin-left: 40%;
     }
 
     .img-2 {
@@ -153,7 +153,7 @@ h2 {
         font-size: 50px;
     }
     .nav-01 {
-        margin-left: 20%;
+        margin-left: 10%;
         width: 100%; 
     }
     .link-menu {
