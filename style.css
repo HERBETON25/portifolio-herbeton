@@ -143,6 +143,7 @@ h2 {
         display: flex;
         margin-left: 5%;
     }
+    .sobre-nome{margin-top: 22%;}
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
     .nav-01 {
