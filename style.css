@@ -161,6 +161,7 @@ h2 {
         display: flex;
         margin-left: 5%;
     }
+    .sobre-nome{margin-top: 22%;}
 }
 @media (max-width: 450px) {
     body {
