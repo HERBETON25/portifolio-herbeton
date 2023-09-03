@@ -126,7 +126,7 @@ h2 {
     .img-rede-sociais-2{height: 70px;}
     .img-rede-sociais-3{height: 70px;}
 
-@media (min-width: 1200px) and (max-width: 1919px) {
+@media (min-width: 1400px) and (max-width: 1919px) {
     .nav-01 {
         padding:0 0 0 40%;
     }
@@ -144,7 +144,24 @@ h2 {
         margin-left: 5%;
     }
 }
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .nav-01 {
+        padding:0 0 0 30%;
+    }
 
+    .img-2 {
+        margin-left: 100px;
+    }
+
+    .figure-photo {
+        margin-top: 60px;
+    }
+
+    .card-projetos {
+        display: flex;
+        margin-left: 5%;
+    }
+}
 @media (max-width: 450px) {
     body {
         width: 100%;
