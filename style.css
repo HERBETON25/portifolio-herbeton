@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    width: 100%;
+   
     display: flex;
 }
 
@@ -26,7 +26,7 @@ span {
 
 .header-lista-1 {
     display: flex;
-    width: 100%;
+   
 }
 
 .portifolio {
@@ -35,7 +35,7 @@ span {
 
 .nav-01 {
     display: flex;
-    margin-left: 90%;
+padding:0 0 0 80%;
     margin-top: 10px;
     
 }
@@ -128,7 +128,7 @@ h2 {
 
 @media (min-width: 1200px) and (max-width: 1919px) {
     .nav-01 {
-        margin-left: 40%;
+        padding:0 0 0 40%;
     }
 
     .img-2 {
