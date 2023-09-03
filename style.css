@@ -26,6 +26,7 @@ span {
 
 .header-lista-1 {
     display: flex;
+    width: 100%;
 }
 
 .portifolio {
@@ -36,6 +37,7 @@ span {
     display: flex;
     margin-left: 90%;
     margin-top: 10px;
+    
 }
 
 .home-principal {
