@@ -9,6 +9,10 @@ body {
     background-color: black;
     backgroud-position: center;
 }
+.container {
+    height: 160vh;
+    width: 200vh;
+}
 
 header {
    
