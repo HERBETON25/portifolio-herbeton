@@ -176,7 +176,7 @@ h2 {
     .nav-01 {
         margin-left: 5%;
         width: 100%; 
-        padding: 0;
+        padding:0 0 0 0%;
     }
     .link-menu {
         margin-left: 5%;
